@@ -16,4 +16,8 @@ The application takes in the aerial images of a bigger region(a colony or a sect
 &nbsp; &nbsp;The casuality zones are also classified as high, medium and low based on the previously available population density and traffic statistics, in order to point the recue services to the most needed region.
 
 &nbsp;&nbsp;  Also the application finds out the shortest and safest routes between the building to reach a user specified location and also integrating it with mobile maps to help navigate the user.
+
+For preprocessing of the image we'll be using python and associated libraries like tensorflow etc to compare the images. Currently we are thinking of breaking the images into grids and comparing the pixels in each grid with its counter part. We'll be integarting the live mobile maps available to analyze the traffic statistics before the disaster so as to predict the casuality level  in a grid. 
+
+&nbsp;&nbsp; All of this will be integrated into a small handy mobile or web app which could be reeadily deployed in the field.
  
